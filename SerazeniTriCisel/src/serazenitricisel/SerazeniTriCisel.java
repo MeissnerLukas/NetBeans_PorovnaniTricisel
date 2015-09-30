@@ -6,14 +6,20 @@
 
 package serazenitricisel;
 
+import java.util.Scanner;
+
 
 public class SerazeniTriCisel {
 
   
     public static void main(String[] args) {
-        int a = 3;
-        int b = 45;
-        int c = 995;
+        Scanner vstup = new Scanner(System.in);
+        System.out.println("Zadej 1. číslo: ");
+        int a = vstup.nextInt ();
+        System.out.println("Zadej 2. číslo: ");
+        int b = vstup.nextInt ();
+        System.out.println("Zadej 3. číslo: ");
+        int c = vstup.nextInt ();
         
         if (a>b) {
             // prohozeni obsahu proměnných b,c
